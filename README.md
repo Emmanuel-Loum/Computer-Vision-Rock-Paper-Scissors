@@ -1,4 +1,4 @@
-A rock,paper,scissors game that is interactive with a laptop user playing using the camera.
+A rock,paper,scissors game that interacts with a laptop user using the camera while playing.
 
 MILESTONE 1
     Keras models offer a simple,user-friendly way to define a neural network that will then be built for you by TensorFlow which provides a collection of workflows to develop and train models using Python.Model is downloaded from TensorFlow tab in Teachable Machine.
