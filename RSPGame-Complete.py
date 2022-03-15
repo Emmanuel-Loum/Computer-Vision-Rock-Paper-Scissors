@@ -151,7 +151,7 @@ def gamer():
                     
                     else:
                         lose=lose+1
-                        messenger=f'P1:{word} Comp: {rules} You win!'
+                        messenger=f'P1:{word} Comp: {rules} You lose!'
                         
                         f=False
                         messenger2='Long press c to continue'
