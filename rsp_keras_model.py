@@ -43,6 +43,9 @@ def gamer():
         
         if cv2.waitKey(1) & 0xFF == ord('t'):
             m=True
+            win=0
+            lose=0
+            tie=0
             t=3
         
         if m==True:
@@ -85,7 +88,7 @@ def gamer():
                     
                     elif word==rules:
                         tie=tie+1
-                        messenger=f'P1: {word} Comp: {rules} You win!'
+                        messenger=f'P1: {word} Comp: {rules} Its a tie!'
                         f=False
                         
                         
@@ -95,7 +98,7 @@ def gamer():
                         
                     else:
                         lose=lose+1
-                        messenger=f'P1:{word} Comp:{rules} You win!'
+                        messenger=f'P1:{word} Comp:{rules} You Lose!'
                         f=False
                         
                         
