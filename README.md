@@ -4,7 +4,9 @@ MILESTONE 1
 
 
 
-    Keras models offer a simple,user-friendly way to define a neural network that will then be built for you by TensorFlow which provides a collection of workflows to develop and train models using Python.Model is downloaded from TensorFlow tab in Teachable Machine.
+Keras models offer a simple,user-friendly way to define a neural networkthat will then be built for 
+you by TensorFlow which provides a collection of workflows to develop and train models using Python.
+Model is downloaded from TensorFlow tab in Teachable Machine.
 
 
 MILESTONE 2
