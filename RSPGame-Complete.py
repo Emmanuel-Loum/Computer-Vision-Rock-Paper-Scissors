@@ -31,7 +31,7 @@ def gamer():
         cv2.imshow('frame', frame)
         # Press q to close the window
         font=cv2.FONT_HERSHEY_SIMPLEX
-        cv2.putText(frame,messenger,(50,70),font,1,(0,255,255),2,cv2.LINE_4)
+        cv2.putText(frame,messenger,(50,70),font,1,(0,255,0),2,cv2.LINE_4)
         cv2.putText(frame,messenger2,(90,440),font,1,(0,255,255),2,cv2.LINE_4)
         cv2.imshow('frame', frame)
         
