@@ -41,25 +41,8 @@ The above code is used to run the model downloaded from teachable machine in you
 MILESTONE 3
 
 Creation of rock,paper,scissors game using Python with if-else statements inorder to figure out a win,lose and tie.
-
-        
-        win=0
-        lose=0
-        tie=0
-        while True:
-            word=input('Choose between rock,paper,scissors ')
-            word=word.lower()
-            
-            rules=['rock','paper','scissors']
-            num=random.randint(0,2)
-            if word=='q':
-                print('win: '+str(win))
-                print('lose: '+str(lose))
-                print('tie '+str(tie))
-                break
-        
-                
-            elif word.lower()=='scissors' and rules[num]=='paper':
+ 
+            if word.lower()=='scissors' and rules[num]=='paper':
                 win=win+1
                 print('Player: '+ word +'\n' + 'Computer: '
                 +rules[num] + ' \nYou won! \nPress q to quit')
@@ -70,28 +53,7 @@ Creation of rock,paper,scissors game using Python with if-else statements inorde
                     print('Game Over! \n You won')
                     break
 
-            elif word.lower()=='paper' and rules[num]=='rock':
-                win=win+1
-                print('Player: '+ word +'\n' + 'Computer: '
-                +rules[num] + ' \n You won! \nPress q to quit')
-                print('win: '+str(win))
-                print('lose: '+str(lose))
-                print('tie '+str(tie))
-                if win ==3:
-                    print('Game Over! \n You won')
-                    break
-
-            elif word.lower()=='rock' and rules[num]=='scissors':
-                win=win+1
-                print('Player: '+ word +'\n' + 'Computer: '
-                +rules[num] + ' \n You won! \nPress q to quit')
-                print('win: '+str(win))
-                print('lose: '+str(lose))
-                print('tie '+str(tie))
-                if win == 3:
-                    print('Game Over! \n You won')
-                    break
-
+            
  
 
 
@@ -119,7 +81,7 @@ MILESTONE 4
 
                 m=False
 
-    using the if-else statement the game repeats 3 times to finalise who the winner is.
+    using the if-else statement, the game repeats 3 times to finalise who the winner is.
 
 
     Display text message on an OpenCV window by using the function putText()
