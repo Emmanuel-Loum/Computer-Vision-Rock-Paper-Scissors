@@ -44,7 +44,8 @@ def gamer():
             lose=0
             tie=0
             t=3
-        
+            messenger2=' '
+            messenger3=' '
         if m==True:
             
             mins,secs=divmod(t,60)
