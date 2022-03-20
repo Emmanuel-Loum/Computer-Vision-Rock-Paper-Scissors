@@ -58,13 +58,14 @@ def gamer():
 
                 m=False
                 f=True
+                s=True
          
          #continue command                       
         if cv2.waitKey(1) & 0xFF == ord('c'):
             f=True
         
         
-        if f==True:               
+        if f==True and s==True:               
             messenger='show your hand'  
             messenger2=' '
             messenger3=' '
@@ -87,7 +88,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                         
                         m=False
-                    
+                        s=False
                     
                 
                 elif word==rules:
@@ -103,7 +104,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                         
                         m=False
-                    
+                        s=False
                     
                     
                 else:
@@ -118,7 +119,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                         
                         m=False
-                    
+                        s=False
                     
                                     
             elif prediction[0][1]>0.9:
@@ -138,6 +139,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                        
                         m=False
+                        s=False
                     
                     
                 
@@ -153,6 +155,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                        
                         m=False
+                        s=False
                         
                     
                 
@@ -169,6 +172,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                        
                         m=False
+                        s=False
                     
                     
                 
@@ -190,6 +194,7 @@ def gamer():
                         messenger2='Press T to play again q to quit' 
                                             
                         m=False
+                        s=False
                     
                     
 
@@ -204,6 +209,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                       
                         m=False
+                        s=False
                     
                     
                 else:
@@ -217,6 +223,7 @@ def gamer():
                         messenger2='Press T to play again q to quit'
                         
                         m=False
+                        s=False
                     
                 
               
