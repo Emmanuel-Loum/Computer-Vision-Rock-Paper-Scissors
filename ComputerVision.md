@@ -98,7 +98,7 @@ Displayed text on the camera screen inclusive of commands for the start,continue
         if cv2.waitKey(1) & 0xFF == ord('c'):
             f=True
 ```
-<blockquote>
+<!--Blockquote-->
 > ## CONCLUSION
 
     To conclude, using Keras models makes it easy for user interaction with an application.However,
