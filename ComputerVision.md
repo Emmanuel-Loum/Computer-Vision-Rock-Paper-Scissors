@@ -43,7 +43,7 @@ The above code is used to run the model downloaded from teachable machine in you
 ## MILESTONE 3
 
 Creation of rock,paper,scissors game using Python with if-else statements inorder to figure out a win,lose and tie.
- ```
+ ```python
             if word.lower()=='scissors' and rules[num]=='paper':
                 win=win+1
                 print('Player: '+ word +'\n' + 'Computer: '
