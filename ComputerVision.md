@@ -61,10 +61,9 @@ Creation of rock,paper,scissors game using Python with if-else statements inorde
 
 ## MILESTONE 4
 
-    Merging the keras model with the python coded game so that the user input may be from the camera.Using prediction from the model,the game will be able to predict the 
-    outcome of the user input which can be translated to either rock,paper,scissors or nothing.
+Merging the keras model with the python coded game so that the user input may be from the camera.Using prediction from the model,the game will be able to predict the outcome of the user input which can be translated to either rock,paper,scissors or nothing.
     
-    Before the game starts,a countdown timer is set to count from 3 to 0 as shown in the code below.
+Before the game starts,a countdown timer is set to count from 3 to 0 as shown in the code below.
 
 ```python    
         if cv2.waitKey(1) & 0xFF == ord('t'):
@@ -83,14 +82,13 @@ Creation of rock,paper,scissors game using Python with if-else statements inorde
 
                 m=False
 ```
-    using the if-else statement, the game repeats 3 times to finalise who the winner is.
+using the if-else statement, the game repeats 3 times to finalise who the winner is.
 
-
-    Display text message on an OpenCV window by using the function putText()
-
-         cv2.putText(frame,messenger2,(90,440),font,1,(0,255,255),2,cv2.LINE_4)
-
-    Displayed text on the camera screen inclusive of commands for the start,continue or quit options.
+Display text message on an OpenCV window by using the function putText()
+```python
+cv2.putText(frame,messenger2,(90,440),font,1,(0,255,255),2,cv2.LINE_4)
+``` 
+Displayed text on the camera screen inclusive of commands for the start,continue or quit options.
 ``` python             
         #quit command       
         if cv2.waitKey(1) & 0xFF == ord('q'):
@@ -100,7 +98,8 @@ Creation of rock,paper,scissors game using Python with if-else statements inorde
         if cv2.waitKey(1) & 0xFF == ord('c'):
             f=True
 ```
-## CONCLUSION
+<blockquote>
+> ## CONCLUSION
 
     To conclude, using Keras models makes it easy for user interaction with an application.However,
     the game would have a better user experience if the OpenCV dispayed the computer's choice by a picture of either paper,rock or scissors 
