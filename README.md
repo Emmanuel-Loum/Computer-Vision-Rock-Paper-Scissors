@@ -1,6 +1,6 @@
-Computer-Vision-Rock-Paper-Scissors
+#  Computer-Vision-Rock-Paper-Scissors
 
-More Information at ComputerVision.md
+## see ComputerVision.md
     
 
             
